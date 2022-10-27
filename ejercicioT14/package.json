@@ -1,0 +1,17 @@
+{
+  "name": "ejerciciot14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-w": "node --watch index.js",
+    "start": "node index.js",
+    "start-s":"http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
