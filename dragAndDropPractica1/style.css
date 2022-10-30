@@ -1,0 +1,36 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.contenedor {
+  position: relative;
+  top: 10rem;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border: 0.5rem solid white;
+}
+
+.caja {
+  position: absolute;
+  top: 5rem;
+  right: 3rem;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  border: 0.5rem solid white;
+}
+
+.caja.droped {
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
